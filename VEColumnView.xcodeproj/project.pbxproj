@@ -12,16 +12,12 @@
 		2CED2168181410C0003D01BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CED2167181410C0003D01BB /* UIKit.framework */; };
 		2CED216E181410C1003D01BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CED216C181410C1003D01BB /* InfoPlist.strings */; };
 		2CED2170181410C1003D01BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED216F181410C1003D01BB /* main.m */; };
-		2CED2174181410C1003D01BB /* VEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED2173181410C1003D01BB /* VEAppDelegate.m */; };
-		2CED2177181410C1003D01BB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED2175181410C1003D01BB /* Main_iPhone.storyboard */; };
-		2CED217A181410C1003D01BB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED2178181410C1003D01BB /* Main_iPad.storyboard */; };
-		2CED217D181410C1003D01BB /* VEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED217C181410C1003D01BB /* VEViewController.m */; };
-		2CED217F181410C1003D01BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED217E181410C1003D01BB /* Images.xcassets */; };
 		2CED2186181410C1003D01BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CED2185181410C1003D01BB /* XCTest.framework */; };
 		2CED2187181410C1003D01BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CED2163181410C0003D01BB /* Foundation.framework */; };
 		2CED2188181410C1003D01BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CED2167181410C0003D01BB /* UIKit.framework */; };
 		2CED2190181410C1003D01BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CED218E181410C1003D01BB /* InfoPlist.strings */; };
 		2CED2192181410C1003D01BB /* VEColumnViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED2191181410C1003D01BB /* VEColumnViewTests.m */; };
+		2CED219D18141185003D01BB /* VEColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED219C18141185003D01BB /* VEColumnView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +39,13 @@
 		2CED216D181410C1003D01BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CED216F181410C1003D01BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CED2171181410C1003D01BB /* VEColumnView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VEColumnView-Prefix.pch"; sourceTree = "<group>"; };
-		2CED2172181410C1003D01BB /* VEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEAppDelegate.h; sourceTree = "<group>"; };
-		2CED2173181410C1003D01BB /* VEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEAppDelegate.m; sourceTree = "<group>"; };
-		2CED2176181410C1003D01BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		2CED2179181410C1003D01BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		2CED217B181410C1003D01BB /* VEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEViewController.h; sourceTree = "<group>"; };
-		2CED217C181410C1003D01BB /* VEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEViewController.m; sourceTree = "<group>"; };
-		2CED217E181410C1003D01BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CED2184181410C1003D01BB /* VEColumnViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VEColumnViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CED2185181410C1003D01BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2CED218D181410C1003D01BB /* VEColumnViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VEColumnViewTests-Info.plist"; sourceTree = "<group>"; };
 		2CED218F181410C1003D01BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CED2191181410C1003D01BB /* VEColumnViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEColumnViewTests.m; sourceTree = "<group>"; };
+		2CED219B18141185003D01BB /* VEColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEColumnView.h; sourceTree = "<group>"; };
+		2CED219C18141185003D01BB /* VEColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEColumnView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,13 +105,8 @@
 		2CED2169181410C1003D01BB /* VEColumnView */ = {
 			isa = PBXGroup;
 			children = (
-				2CED2172181410C1003D01BB /* VEAppDelegate.h */,
-				2CED2173181410C1003D01BB /* VEAppDelegate.m */,
-				2CED2175181410C1003D01BB /* Main_iPhone.storyboard */,
-				2CED2178181410C1003D01BB /* Main_iPad.storyboard */,
-				2CED217B181410C1003D01BB /* VEViewController.h */,
-				2CED217C181410C1003D01BB /* VEViewController.m */,
-				2CED217E181410C1003D01BB /* Images.xcassets */,
+				2CED219B18141185003D01BB /* VEColumnView.h */,
+				2CED219C18141185003D01BB /* VEColumnView.m */,
 				2CED216A181410C1003D01BB /* Supporting Files */,
 			);
 			path = VEColumnView;
@@ -232,9 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CED217A181410C1003D01BB /* Main_iPad.storyboard in Resources */,
-				2CED217F181410C1003D01BB /* Images.xcassets in Resources */,
-				2CED2177181410C1003D01BB /* Main_iPhone.storyboard in Resources */,
 				2CED216E181410C1003D01BB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CED2170181410C1003D01BB /* main.m in Sources */,
-				2CED217D181410C1003D01BB /* VEViewController.m in Sources */,
-				2CED2174181410C1003D01BB /* VEAppDelegate.m in Sources */,
+				2CED219D18141185003D01BB /* VEColumnView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,22 +267,6 @@
 				2CED216D181410C1003D01BB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2CED2175181410C1003D01BB /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CED2176181410C1003D01BB /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		2CED2178181410C1003D01BB /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CED2179181410C1003D01BB /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		2CED218E181410C1003D01BB /* InfoPlist.strings */ = {
